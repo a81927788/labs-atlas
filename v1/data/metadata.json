@@ -1,0 +1,9 @@
+{
+  "title": "Global CBRN Defense Laboratory Benchmark Atlas",
+  "version": "v1.0",
+  "date": "2026-04-26",
+  "record_count": 139,
+  "countries": 56,
+  "status": "Workbook-structured v1 starter. Not a fully source-verified public benchmark.",
+  "methodology": "Labs are included when public evidence or strong candidate indicators show relevance to anti/control/defense CBRN, CBRN item checking/calibration/testing, or CBRN defense R&D. Scores are transparent weighted indicators and must be updated as sources are validated."
+}

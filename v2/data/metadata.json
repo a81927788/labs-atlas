@@ -1,0 +1,23 @@
+{
+  "title": "CBRN Laboratory Intelligence Atlas",
+  "version": "v2.0-expert-internal",
+  "updated": "2026-04-26",
+  "classification_note": "Internal analytical tool. Dataset aggregates open-source institutional information and structured expert scoring fields. Not for public release without sanitization and source review.",
+  "total_labs": 139,
+  "total_countries": 56,
+  "methodology": "Weighted benchmark model covering strategic relevance, technical CBRN capability, infrastructure maturity, operational support, accreditation/standards, research output, and international collaboration.",
+  "scoring_weights": {
+    "strategic_relevance": 22,
+    "technical_capability": 20,
+    "operational_support": 16,
+    "accreditation_standards": 12,
+    "research_output": 12,
+    "infrastructure_maturity": 10,
+    "international_collaboration": 8
+  },
+  "validation_tiers": [
+    "Tier 1 anchor - official source identified",
+    "Tier 2 candidate - partial validation required",
+    "Tier 3 candidate - structured placeholder pending validation"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "v4.2",
+  "summary": "Consistency fix release: full lab list preserved, data audit added, country normalization improved, candidate labs visible by default.",
+  "previous_master_count": 139,
+  "current_count": 139,
+  "added_from_v3": [],
+  "removed_since_v3": [],
+  "notes": [
+    "The current data already contained the Pakistan records from the prior master list; v4.2 adds audit visibility so this can be verified in the UI.",
+    "No records are intentionally hidden by validation status.",
+    "Country aliases such as Pakstan/Pakistan, USA/United States, UK/United Kingdom are normalized in UI matching."
+  ],
+  "changes": [
+    {
+      "version": "v4.3-ux-audit-implementation",
+      "date": "2026-04-26",
+      "type": "ui/ux",
+      "summary": "Implemented design audit and laptop-first layout refinements. Dataset preserved from v4.2 with no lab additions/removals."
+    }
+  ]
+}

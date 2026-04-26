@@ -1,0 +1,17 @@
+{
+  "name": "CBRN Laboratory Intelligence Atlas",
+  "version": "v4",
+  "mode": "light",
+  "date": "2026-04-26",
+  "description": "Internal evidence-based benchmarking platform. Data are workbook-derived and must be reviewed before formal reliance.",
+  "lab_count": 139,
+  "weights": {
+    "strategic_relevance": 0.22,
+    "technical_capability": 0.2,
+    "operational_support": 0.16,
+    "accreditation_standards": 0.12,
+    "research_output": 0.12,
+    "infrastructure_maturity": 0.1,
+    "international_collaboration": 0.08
+  }
+}

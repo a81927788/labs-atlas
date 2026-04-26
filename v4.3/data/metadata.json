@@ -1,0 +1,31 @@
+{
+  "version": "v4.3-ux-audit-implementation",
+  "release_date": "2026-04-26",
+  "purpose": "Improve laptop presentation quality and UI consistency while preserving the full v4.2 dataset.",
+  "master_source": "v3 complete lab list + v4.1 schema/UI",
+  "counts": {
+    "v3_master_count": 139,
+    "v4_2_count": 139,
+    "restored_from_v3_count": 0,
+    "removed_count": 0,
+    "duplicate_id_count": 0
+  },
+  "consistency_rules": [
+    "Stable lab IDs must be preserved between releases.",
+    "Candidate labs must remain visible unless explicitly filtered out by the user.",
+    "Country pages must use normalized country names and aliases.",
+    "Removed or added labs must appear in the changelog.",
+    "The dataset must be migrated forward, not regenerated from scratch."
+  ],
+  "ui_audit": {
+    "dataset_preserved": true,
+    "lab_count": 139,
+    "primary_changes": [
+      "redesigned lab cards",
+      "laptop-first grids",
+      "profile criteria readability",
+      "design audit page",
+      "navigation refinement"
+    ]
+  }
+}
