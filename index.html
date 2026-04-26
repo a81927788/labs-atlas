@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CBRN Lab Atlas — Demo Versions</title>
+  <style>
+    :root { --bg:#f6f8fb; --card:#ffffff; --ink:#172033; --muted:#667085; --line:#d9e1ec; --accent:#155eef; --soft:#eef4ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: Inter, Arial, sans-serif; background:linear-gradient(180deg,#f8fbff,#eef3f9); color:var(--ink); }
+    header { padding:42px 56px 22px; border-bottom:1px solid var(--line); background:#fff; }
+    .eyebrow { color:var(--accent); font-weight:800; letter-spacing:.08em; text-transform:uppercase; font-size:12px; }
+    h1 { margin:10px 0 8px; font-size:38px; line-height:1.05; }
+    p { color:var(--muted); font-size:16px; max-width:900px; line-height:1.6; }
+    main { padding:32px 56px 60px; max-width:1280px; margin:auto; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; box-shadow:0 10px 28px rgba(16,24,40,.06); min-height:210px; display:flex; flex-direction:column; justify-content:space-between; }
+    .tag { display:inline-block; font-size:12px; font-weight:800; color:#344054; background:#f2f4f7; padding:6px 10px; border-radius:999px; width:max-content; }
+    .card h2 { margin:18px 0 8px; font-size:24px; }
+    .card p { font-size:14px; margin:0 0 18px; }
+    a.button { display:inline-flex; align-items:center; justify-content:center; text-decoration:none; background:var(--accent); color:#fff; border-radius:12px; padding:11px 14px; font-weight:800; }
+    .secondary { background:#fff !important; color:var(--accent) !important; border:1px solid #b2ccff; }
+    .notes { margin-top:24px; padding:18px 20px; border-radius:16px; background:var(--soft); border:1px solid #c7d7fe; }
+    code { background:#fff; border:1px solid var(--line); padding:2px 6px; border-radius:6px; }
+    @media (max-width:980px){ header, main{padding-left:24px;padding-right:24px;} .grid{grid-template-columns:1fr;} h1{font-size:30px;} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Internal Demo Portal</div>
+    <h1>CBRN Laboratory Intelligence Atlas</h1>
+    <p>Use this page to demonstrate all packaged versions side by side. Each version is self-contained in its own folder and can be published through one GitHub Pages repository.</p>
+  </header>
+  <main>
+    <section class="grid">
+      <div class="card"><div><span class="tag">Seed</span><h2>Starter</h2><p>Initial GitHub Pages starter with basic map, lab cards, and dataset structure.</p></div><a class="button secondary" href="./starter/">Open Starter</a></div>
+      <div class="card"><div><span class="tag">v1</span><h2>Workbook Structured</h2><p>Extended lab fields, methodology, scoring model, validation status, and evidence gaps.</p></div><a class="button secondary" href="./v1/">Open v1</a></div>
+      <div class="card"><div><span class="tag">v2</span><h2>Expert Internal</h2><p>Internal dashboard, offline geo view, filters, lab profile pages, comparison, and validation fields.</p></div><a class="button secondary" href="./v2/">Open v2</a></div>
+      <div class="card"><div><span class="tag">v3</span><h2>Criteria + Real Map</h2><p>Weighted criteria sections, supporting data per lab, Leaflet/OpenStreetMap, and pagination.</p></div><a class="button secondary" href="./v3/">Open v3</a></div>
+      <div class="card"><div><span class="tag">v4</span><h2>Evidence Model</h2><p>Evidence scoring, validation tiers, gap analysis, real map, lab profiles, and comparison mode.</p></div><a class="button secondary" href="./v4/">Open v4</a></div>
+      <div class="card"><div><span class="tag">v4.1</span><h2>Country Pages Fix</h2><p>Restored country pages, country-level statistics, lab grouping, and laptop layout improvements.</p></div><a class="button secondary" href="./v4.1/">Open v4.1</a></div>
+      <div class="card"><div><span class="tag">v4.2</span><h2>Consistency Fix</h2><p>Preserved 139-lab list, stable IDs, aliases, candidate visibility, data audit, and changelog.</p></div><a class="button secondary" href="./v4.2/">Open v4.2</a></div>
+      <div class="card"><div><span class="tag">v4.3</span><h2>UX Audit</h2><p>Laptop-first layout, improved cards, cleaner evidence sections, design audit, and preserved dataset.</p></div><a class="button" href="./v4.3/">Open Latest v4.3</a></div>
+    </section>
+    <div class="notes">
+      <strong>GitHub Pages setup:</strong> upload this entire folder to one repo, then enable <code>Settings → Pages → Deploy from branch → main → /root</code>. Demo links will be <code>/starter/</code>, <code>/v1/</code>, <code>/v2/</code>, <code>/v3/</code>, <code>/v4/</code>, <code>/v4.1/</code>, <code>/v4.2/</code>, and <code>/v4.3/</code>.
+    </div>
+  </main>
+</body>
+</html>
