@@ -1,4 +1,4 @@
-# CBRN Laboratory Intelligence Atlas — Master Demo Package
+#  Laboratory  Atlas — Master Demo Package
 
 This package contains all demo versions in one GitHub Pages-ready structure.
 
